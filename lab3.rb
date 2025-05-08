@@ -25,6 +25,12 @@ def game(rounds)
   
 	puts "Please choose two players:"
 	bots.each { |num, name| puts "(#{num}) #{name}" }
+
+	print "\nSelect Player 1: "
+	player1 = gets
+
+	print "\nSelect Player 2: "
+	player2 = gets
 	
 end
 

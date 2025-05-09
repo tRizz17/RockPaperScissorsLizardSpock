@@ -2,8 +2,8 @@ require_relative "player"
 
 class RandomBot < Player
 
-    def initialize(args*)
-        super(args*)
+    def initialize(*args)
+        super(*args)
         @rand_dict = {
             1 => "StupidBot",
             2 => "RandomBot",

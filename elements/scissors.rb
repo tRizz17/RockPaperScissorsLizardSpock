@@ -6,8 +6,8 @@ class Scissors < Element
         case element.name
         when 'Paper' then
             'Scissors cut Paper'
-        when 'Spock' then
-            'Paper covers Spock'
+        when 'Lizard' then
+            'Scissors decapitate Lizard'
         when 'Scissors' then
             'Scissors equals Scissors'
         end

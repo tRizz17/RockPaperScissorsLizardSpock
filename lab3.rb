@@ -64,7 +64,7 @@ def round(p1,p2,x)
 
 	if comp1&.match?("equals") || comp2&.match?("equals")
 		puts comp1
-		puts "Round ends in a tie"
+		puts "Round ends in a tie\n\n"
 	elsif comp1 == nil
 		p2.history.add_score()
 		puts comp2

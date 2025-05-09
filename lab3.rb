@@ -17,7 +17,7 @@ require_relative "history"   # uncomment to load history.rb
 
 
 def begin_game()
-	puts "\nWelcome to Rock, Paper, Scissors, Lizard, Spock!\n\n"
+	puts "Welcome to Rock, Paper, Scissors, Lizard, Spock!"
 
 	bots = {
 	  1 => StupidBot,

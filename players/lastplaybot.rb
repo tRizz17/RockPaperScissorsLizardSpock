@@ -4,11 +4,10 @@ class LastPlayBot < Player
 
     def initialize(*args)
         super(*args)
-        @history = history
-        @last_play = @history.opponent_plays.last
     end
 
     def play()
-        return @last_play
+        last = @history.opponent_plays.last
+        last.nil? ? $rock : last
     end
 end

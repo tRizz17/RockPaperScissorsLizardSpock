@@ -8,8 +8,8 @@ class IterativeBot < Player
             1 => $rock,
             2 => $paper,
             3 => $scissors,
-            4 => $spock,
-            5 => $lizard
+            4 => $lizard,
+            5 => $spock
         }
     
         @i = 1

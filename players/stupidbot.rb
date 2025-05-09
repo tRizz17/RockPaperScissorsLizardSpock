@@ -3,9 +3,12 @@ require_relative "player"
 
 class StupidBot < Player
 
+    def initialize(*args)
+        super(*args)
+    end
+
     def play()
-        # probably need to change this to return a string or something. Maybe rock object
-        return rock
+        return $rock
     end
 
 end

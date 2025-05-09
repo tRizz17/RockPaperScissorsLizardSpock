@@ -7,7 +7,20 @@ class Spock < Element
         when 'Scissors' then
             'Spock smashes Scissors'
         when 'Rock' then
-            return 'Spock vaporizes Rock'
+            'Spock vaporizes Rock'
+        when 'Spock' then
+            'Spock equals Spock'
         end
     end
 end
+
+# Scissors cut Paper
+# Paper covers Rock
+# Rock crushes Lizard
+# Lizard poisons Spock
+# Spock smashes Scissors
+# Scissors decapitate Lizard
+# Lizard eats Paper
+# Paper disproves Spock
+# Spock vaporizes Rock
+# Rock crushes Scissors

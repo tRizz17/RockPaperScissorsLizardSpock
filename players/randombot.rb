@@ -5,11 +5,11 @@ class RandomBot < Player
     def initialize(*args)
         super(*args)
         @rand_dict = {
-            1 => "StupidBot",
-            2 => "RandomBot",
-            3 => "IterativeBot",
-            4 => "LastPlayBot",
-            5 => "Human"
+            1 => $rock,
+            2 => $lizard,
+            3 => $spock,
+            4 => $paper,
+            5 => $scissors
         }
     end
     

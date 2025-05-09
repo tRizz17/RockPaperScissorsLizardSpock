@@ -8,6 +8,8 @@ class Paper < Element
             'Paper covers Rock'
         when 'Spock' then
             'Paper disproves Spock'
+        when 'Paper' then
+            'Paper equals Paper'
         end
     end
 end

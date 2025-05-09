@@ -1,15 +1,15 @@
+require_relative "../history"
 
-
-class Human
+class Human < Player
 
     def initialize(*args)
         super(*args)
         @plays = {
-            1 => 'Rock',
-            2 => 'Paper',
-            3 => 'Scissors',
-            4 => 'Lizard',
-            5 => 'Spock'
+            1 => $rock,
+            2 => $paper,
+            3 => $scissors,
+            4 => $lizard,
+            5 => $spock
         }
         @move = nil
     end
@@ -17,9 +17,9 @@ class Human
     def play()
         invalid = true
         while invalid
-            puts "Enter your move:"
-            @plays.each { |num, name| puts "(#{num}) #{name}" }
-            input = gets.chomp.to_i
+            @plays.each { |num, move| puts "(#{num}) #{move.name}" }
+            print "Enter your move: "
+            input = gets.to_i
             if (1..5).include?(input)
                 @move = @plays[input]
                 invalid = false

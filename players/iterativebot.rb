@@ -1,15 +1,15 @@
+require_relative "../history"
 
-
-class IterativeBot
+class IterativeBot < Player
 
     def initialize(*args)
         super(*args)
         @rand_dict = {
-            1 => "StupidBot",
-            2 => "RandomBot",
-            3 => "IterativeBot",
-            4 => "LastPlayBot",
-            5 => "Human"
+            1 => $rock,
+            2 => $paper,
+            3 => $scissors,
+            4 => $spock,
+            5 => $lizard
         }
     
         @i = 1

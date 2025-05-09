@@ -7,6 +7,8 @@ class Rock < Element
             'Rock crushes Lizard'
         when 'Scissors' then
             'Rock crushes Scissors'
+        when 'Rock' then
+            'Rock equals Rock'
         end
     end
 end

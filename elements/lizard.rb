@@ -4,9 +4,11 @@ class Lizard < Element
     def compare_to(element)
         case element.name
         when 'Spock' then
-            puts 'Lizard poisons Spock'
+            'Lizard poisons Spock'
         when 'Paper' then
-            puts 'Lizard eats Paper'
+            'Lizard eats Paper'
+        when 'Lizard' then
+            'Lizard equals Lizard'
         end
 
     end

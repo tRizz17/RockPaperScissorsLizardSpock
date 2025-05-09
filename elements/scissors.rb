@@ -5,9 +5,11 @@ class Scissors < Element
     def compare_to(element)
         case element.name
         when 'Paper' then
-            puts 'Scissors cut Paper'
+            'Scissors cut Paper'
         when 'Spock' then
-            puts 'Paper covers Spock'
+            'Paper covers Spock'
+        when 'Scissors' then
+            'Scissors equals Scissors'
         end
     end
 end

@@ -20,6 +20,7 @@ class History
     end
 
     def add_score()
+        @score += 1
     end
 
 

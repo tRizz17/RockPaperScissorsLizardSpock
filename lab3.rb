@@ -1,10 +1,10 @@
-require_relative "elements/element"   # uncomment to load element.rb
-require_relative "players/player"    # uncomment to load player.rb 
-require_relative "players/stupidbot"
-require_relative "players/randombot"
-require_relative "players/iterativebot"
-require_relative "players/lastplaybot"
-require_relative "players/human"
+require_relative "element"   # uncomment to load element.rb
+require_relative "player"    # uncomment to load player.rb 
+require_relative "stupidbot"
+require_relative "randombot"
+require_relative "iterativebot"
+require_relative "lastplaybot"
+require_relative "human"
 require_relative "history"   # uncomment to load history.rb
 
 ######################################### 	

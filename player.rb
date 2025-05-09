@@ -1,6 +1,6 @@
 
-require_relative "../elements/element"
-require_relative "../history"
+require_relative "element"
+require_relative "history"
 
 class Player
     attr_reader :name, :history

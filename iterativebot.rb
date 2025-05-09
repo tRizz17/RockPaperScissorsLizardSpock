@@ -1,4 +1,4 @@
-require_relative "../history"
+require_relative "history"
 
 class IterativeBot < Player
 
